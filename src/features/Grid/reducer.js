@@ -12,7 +12,7 @@ const reducer = (state = initialState, action) => {
             }
             return [...state, newSquare]
         case REMOVE_SQUARE:
-            return state.filter(square => square.id != action.id)
+            return state.filter(square => square.id !== action.id)
     
         default:
             return state;

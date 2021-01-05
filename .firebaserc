@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "shop-c432d"
+  },
+  "targets": {
+    "shop-c432d": {
+      "hosting": {
+        "redux": [
+          "redux-6fc9e"
+        ]
+      }
+    }
+  }
+}
