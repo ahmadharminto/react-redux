@@ -1,0 +1,10 @@
+
+.grid .grid__button > div {
+    margin: 2px;
+}
+
+.grid .grid__squares {
+    margin: auto;
+    max-width: 400px;
+    overflow: hidden;
+}
